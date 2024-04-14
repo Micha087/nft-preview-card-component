@@ -25,6 +25,47 @@ body {
   height: 100vh;
   place-content: center;
 }
+.nft-card{
+  background-color: var(--Very-dark-blue-card-BG);
+  border-radius: 0.8rem;
+  max-width: 350px;
+  padding: 25px;
+}
+.nft-image img{
+  border-radius: 0.5rem;
+}
+.nft-image{
+  position: relative;
+}
+.svg-view-container{
+  background-color: hsl(178, 100%, 50%, 50%);
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.svg-view-container img{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.svg-view-container:hover{
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 0.8rem;
+}
+.nft-card h1{
+  color: var(--White);
+  font-family: 'Outfit';
+  font-size: 23px;
+  font-weight: 400;
+}
+.description{
+  color: var(--Soft-blue);
+  font-weight: 300;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
