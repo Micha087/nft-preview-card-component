@@ -103,7 +103,7 @@ body {
   border: solid 1px var(--White);
   border-radius: 50%;
 }
-.creation {
+.profilepic-name p {
   color: var(--Soft-blue);
   font-size: 15px;
   font-weight: 300;
@@ -121,7 +121,7 @@ body {
 .nft-title,
 .description,
 .crypto-timeleft,
-.profilepic-name{
+.profilepic-name {
   margin-top: 20px;
 }
 .attribution {
@@ -133,13 +133,13 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (max-width:320px){
-  .nft-card{
+@media (max-width: 320px) {
+  .nft-card {
     max-width: 300px;
   }
 }
-@media (max-width:280px){
-  .nft-card{
+@media (max-width: 280px) {
+  .nft-card {
     max-width: 260px;
   }
 }
