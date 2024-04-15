@@ -78,7 +78,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-.crypto {
+.crypto-icon p {
   color: var(--Cyan);
   font-size: 15px;
   font-weight: 600;
@@ -88,7 +88,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-.timeleft {
+.timeleft-icon p {
   color: var(--Soft-blue);
   font-size: 15px;
   font-weight: 300;
@@ -108,13 +108,13 @@ body {
   font-size: 15px;
   font-weight: 300;
 }
-.creator-name {
+.profilepic-name span {
   color: var(--White);
   font-size: 15px;
   font-weight: 300;
 }
 .nft-title:hover,
-.creator-name:hover {
+.profilepic-name span:hover {
   color: var(--Cyan);
   cursor: pointer;
 }
